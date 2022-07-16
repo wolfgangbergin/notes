@@ -5,7 +5,7 @@ shift + opt + f; //  Prettier!!!
 opt + shift + downArrow; // Repeat line
 
 
-let kimbo = 'kimbo4321';
+
 
 
 
