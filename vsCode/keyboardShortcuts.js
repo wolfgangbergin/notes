@@ -4,6 +4,8 @@ cmd + d; // select next occurrence
 shift + opt + f; //  Prettier!!!
 opt + shift + downArrow; // Repeat line
 
+opt + downArrow // shift down
+opt + upArrow // shift up
 
 
 
