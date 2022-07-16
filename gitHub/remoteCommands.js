@@ -23,6 +23,4 @@
 // git branch -r // git remote branch
 // git remote
 // git remote rm origin
-
-
-
+//git branch -d <branch> // Delete branch
