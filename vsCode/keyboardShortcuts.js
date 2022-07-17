@@ -9,3 +9,5 @@ opt + upArrow; // shift up
 
 cmd + F2; // Select all occurrences
 ctrl + spaceBar // Auto complete popup
+cmd + shift + spaceBar // Parameter suggestions 
+cmd + b // show  primary side bar
