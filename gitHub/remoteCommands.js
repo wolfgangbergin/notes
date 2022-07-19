@@ -26,9 +26,16 @@
 //git branch -d <branch> // Delete branch
 
 // git branch -r // git remote branch !!!
+
+
+
 // Where business is a new branch someone else created off the master
 // git checkout origin/business 
 // * (HEAD detached at origin/business)
 // git checkout -b business
+
+
+
+
 // or ShortHand where dummy is the new Local branch branch name
 // or  git checkout -b dummy  origin/business
