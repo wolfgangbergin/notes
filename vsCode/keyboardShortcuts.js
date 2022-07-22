@@ -20,6 +20,8 @@ ctrl + spaceBar; // Auto complete popup
 cmd + shift + spaceBar; // Parameter suggestions
 cmd + b; // show  primary side bar
 shift + cmd + f; // Search bar
+shift + arrows; // To select things
+
 
 //google search type javaScript first
 console.log('wolfTest', result, param1, imput, )

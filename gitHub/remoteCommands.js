@@ -36,6 +36,5 @@
 
 
 
-
 // or ShortHand where dummy is the new Local branch branch name
 // or  git checkout -b dummy  origin/business
