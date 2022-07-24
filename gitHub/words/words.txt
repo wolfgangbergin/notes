@@ -2,6 +2,9 @@ integer
 float
 Truthy & Falsy Values
 these
+there
+though
+Sentence
 
 {
   // Use IntelliSense to learn about possible attributes.
