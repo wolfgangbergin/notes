@@ -58,3 +58,13 @@ ______________!!!
 ______________!!!
 
 //  git push integer HEAD:delete
+
+
+______________!!!
+
+// Generate SSH key
+// ssh-keygen -o -t rsa -C "wolfgangbergin@gmail.com"
+// cat id_rsa.pub
+
+
+______________!!!
