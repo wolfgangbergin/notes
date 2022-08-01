@@ -5,6 +5,8 @@
 // node.js
 //  express.js
 // sql
+// SSH
+// DevOps 
 
 F1 + printCode; // print
 opt + cmd + f; // find replace

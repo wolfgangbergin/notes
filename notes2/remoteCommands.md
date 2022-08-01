@@ -1,5 +1,5 @@
 
-
+ git status
 // git branch kim
 // git checkout kim
 // git add .
