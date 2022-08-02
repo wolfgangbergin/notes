@@ -1,5 +1,5 @@
 git diff
-
+ git merge branch
 git status
 // git branch kim
 // git checkout kim
