@@ -64,3 +64,4 @@ git config --global alias.add-commit '!git add -A && git commit'
 
 git add-commit -m 'My commit message'
 
+git reset --hard 691a78500
