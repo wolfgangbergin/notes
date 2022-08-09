@@ -62,6 +62,17 @@ git status
 
 git config --global alias.add-commit '!git add -A && git commit'
 
-git add-commit -m 'My commit message'
+
 
 git reset --hard 691a78500
+
+******\_\_******!!!
+
+git commit -a --allow-empty-message -m ''
+******\_\_******!!!
+
+git config --global alias.add-commit '!git add -A && git commit -m "commit"'
+git config --global alias.wolf '!git add -A && git commit -m "commit" && git push'
+******\_\_******!!!
+
+git checkout -- .

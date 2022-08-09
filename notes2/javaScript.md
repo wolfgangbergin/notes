@@ -5,4 +5,6 @@ parseInt(wolfMan) = +wolfMan
 
  !!0 = false // Real false not falsey
 
- let testWolf = 0 || 666
+ const testWolf = 0 || 'wolfMan'
+ The reverse of short-circuit operator
+  let testWolf = 1 && 'wolfMan'
