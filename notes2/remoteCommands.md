@@ -1,3 +1,5 @@
+ctrl + z
+Q
 git diff
  git merge branch
 git status
@@ -81,3 +83,7 @@ git branch -D branchName // delete branch
 git stash
 git stash apply
 git stash list
+git stash apply 2
+git stash push -m 'massage'
+git stash drop 2
+git stash pop 1
