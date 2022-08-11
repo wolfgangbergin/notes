@@ -77,3 +77,7 @@ git config --global alias.wolf '!git add -A && git commit -m "commit" && git pus
 
 git checkout -- . // checkout Head
 git branch -D branchName // delete branch
+******\_\_******!!!
+git stash
+git stash apply
+git stash list
