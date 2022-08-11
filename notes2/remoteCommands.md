@@ -75,4 +75,5 @@ git config --global alias.add-commit '!git add -A && git commit -m "commit"'
 git config --global alias.wolf '!git add -A && git commit -m "commit" && git push'
 ******\_\_******!!!
 
-git checkout -- .
+git checkout -- . // checkout Head
+git branch -D branchName // delete branch
