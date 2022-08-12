@@ -87,3 +87,4 @@ git stash apply 2
 git stash push -m 'massage'
 git stash drop 2
 git stash pop 1
+git stash clear
