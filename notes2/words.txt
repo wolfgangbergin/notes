@@ -10,6 +10,7 @@ final
 parameters
 main 
 error
+delete
 
 {
   // Use IntelliSense to learn about possible attributes.
