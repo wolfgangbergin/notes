@@ -8,3 +8,7 @@ parseInt(wolfMan) = +wolfMan
  const testWolf = 0 || 'wolfMan'
  The reverse of short-circuit operator
   let testWolf = 1 && 'wolfMan'
+
+for of  Arrays
+  for in Objects
+  for in  Arrays

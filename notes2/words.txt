@@ -11,6 +11,10 @@ parameters
 main 
 error
 delete
+default
+ method
+ Arrays
+ continue
 
 {
   // Use IntelliSense to learn about possible attributes.
