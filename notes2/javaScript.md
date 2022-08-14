@@ -9,6 +9,6 @@ parseInt(wolfMan) = +wolfMan
  The reverse of short-circuit operator
   let testWolf = 1 && 'wolfMan'
 
-for of  Arrays
-  for in Objects
-  for in  Arrays
+for of  Arrays // returns the value
+  for in Objects // returns the key
+  for in  Arrays // returns the key
