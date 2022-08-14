@@ -1,3 +1,4 @@
+git merge --abort 
 ctrl + z
 Q
 git diff
