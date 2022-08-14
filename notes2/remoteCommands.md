@@ -89,4 +89,12 @@ git stash push -m 'massage'
 git stash drop 2
 git stash pop 1
 git stash clear
+
+
 git stash store $(git stash create) -m "Stash commit message" // stash something without reverting to head to the head
+
+This can be saved to a Git alias to make it more convenient:
+
+git config --global alias.stash-keep '!git stash store $(git stash create)'
+
+git stash-keep -m "Stash commit message"
