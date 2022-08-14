@@ -89,3 +89,4 @@ git stash push -m 'massage'
 git stash drop 2
 git stash pop 1
 git stash clear
+git stash store $(git stash create) -m "Stash commit message" // stash something without reverting to head to the head
