@@ -9,6 +9,46 @@ parseInt(wolfMan) = +wolfMan
  The reverse of short-circuit operator
   let testWolf = 1 && 'wolfMan'
 
+
+iterable and enumerable
+Iterables = index in Arrays
+enumerable = key in Objet
+
+
+objects are not iterable
+
+for .. of for [array, Map, Set, String] to iterate over values;
+for of give u values
+for of loop   iterates over an array
 for of  Arrays // returns the value
+for of  strings // returns the value
+---------------------
+for in give u the key
+The for...in loop iterates over the enumerable properties of an object. It also goes up to the prototype chain and enumerates over inherited properties.
   for in Objects // returns the key
   for in  Arrays // returns the key
+   for in  strings // returns the key
+
+
+A mnemonic:
+
+'o'f -> not 'o'bjects;
+'i'n -> not 'i'terables.
+Another mnemonic:
+
+for..in..keys === foreign keys === use for...in for keys;
+for...of for values.
+in gives you index.
+
+
+ Object.defineProperty(Object.prototype, 'dirWolf', {
+        value: (param1) => {
+          console.dir(param1);
+        },
+        enumerable: false,
+        configurable: false,
+        writable: false
+      });
+
+
+      if (done) return;

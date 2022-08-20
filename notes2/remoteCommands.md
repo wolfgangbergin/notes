@@ -82,6 +82,7 @@ git checkout -- . // checkout Head
 git branch -D branchName // delete branch
 ******\_\_******!!!
 git stash
+git stash -m 'message'
 git stash apply
 git stash list
 git stash apply 2
@@ -98,3 +99,12 @@ This can be saved to a Git alias to make it more convenient:
 git config --global alias.stash-keep '!git stash store $(git stash create)'
 
 git stash-keep -m "Stash commit message"
+
+git config --global alias.sta '!git stash  && git stash apply'
+
+----------------------
+ git config --global alias.test '!git wolf && git stash apply'
+
+ ----------------------
+ git merge --squash branchName
+ git rebase breanchName
