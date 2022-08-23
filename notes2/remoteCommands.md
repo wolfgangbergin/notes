@@ -63,7 +63,6 @@ git status
 
 ******\_\_******!!!
 
-git config --global alias.add-commit '!git add -A && git commit'
 
 
 

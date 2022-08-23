@@ -52,3 +52,7 @@ in gives you index.
 
 
       if (done) return;
+
+
+Import Lodash
+    <script type="module" src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js" defer></script>
