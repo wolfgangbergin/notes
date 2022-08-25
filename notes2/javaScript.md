@@ -56,3 +56,10 @@ in gives you index.
 
 Import Lodash
     <script type="module" src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js" defer></script>
+
+
+______________________
+const union = Array.from(new Set([...threeArray, ...fiveArray]));
+  const result = union.reduce((sum, a) => sum + a, 0);
+  ---------------------------
+

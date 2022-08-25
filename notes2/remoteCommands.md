@@ -107,3 +107,6 @@ git config --global alias.sta '!git stash  && git stash apply'
  ----------------------
  git merge --squash branchName
  git rebase breanchName
+
+ ----------------------
+ git    
