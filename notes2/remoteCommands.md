@@ -105,8 +105,9 @@ git config --global alias.sta '!git stash  && git stash apply'
  git config --global alias.test '!git wolf && git stash apply'
 
  ----------------------
- git merge --squash branchName
+ git merge --
+  branchName
  git rebase breanchName
 
  ----------------------
- git    
+  git config --global alias.stm 'stash -m'
