@@ -63,3 +63,5 @@ const union = Array.from(new Set([...threeArray, ...fiveArray]));
   const result = union.reduce((sum, a) => sum + a, 0);
   ---------------------------
 
+Practice Array.reduce()
+Practice Array.filter()

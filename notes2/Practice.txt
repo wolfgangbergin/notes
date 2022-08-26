@@ -1,0 +1,2 @@
+Practice Array.reduce()
+Practice Array.filter()
