@@ -1,2 +1,4 @@
 Practice Array.reduce()
 Practice Array.filter()
+Spread operator ...
+...rest
