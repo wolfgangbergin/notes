@@ -113,7 +113,7 @@ git config --global alias.sta '!git stash  && git stash apply'
   git config --global alias.stm 'stash -m'
 ----------------------
 
-
+git revert 89fbb2c
   git reflog
   git log --graph --decorate --oneline
   git config --global alias.l 'log --graph --decorate --oneline'
