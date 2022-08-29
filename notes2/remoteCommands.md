@@ -117,3 +117,11 @@ git revert 89fbb2c
   git reflog
   git log --graph --decorate --oneline
   git config --global alias.l 'log --graph --decorate --oneline'
+  git log -S 'wolfMan' // search
+  git push origin --delete wolfMan // delete remote branch
+  git branch -VV
+  git remote update --prune
+  git --help
+  
+  ----------------------
+Press Esc to enter Command mode, and then type :wq to write and quit the file. The other, quicker option is to use the keyboard shortcut ZZ to write and quit. To the non-vi initiated, write means save, and quit means exit vi.
