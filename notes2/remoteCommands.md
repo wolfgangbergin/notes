@@ -127,5 +127,6 @@ git revert 89fbb2c
    git bisect start
    git bisect bad
    git bisect good 9f708bc
+   git reset --hard origin/wolfMan   // hard Reset  to origin/branchName
   ----------------------
 Press Esc to enter Command mode, and then type :wq to write and quit the file. The other, quicker option is to use the keyboard shortcut ZZ to write and quit. To the non-vi initiated, write means save, and quit means exit vi.
