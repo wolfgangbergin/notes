@@ -66,7 +66,8 @@ const union = Array.from(new Set([...threeArray, ...fiveArray]));
 Practice Array.reduce()
 Practice Array.filter()
 
-const KIM = true
-
-let wolfMan = KIM && (()=>'wolfMan'))()
-console.log(wolfMan)
+<!-- Ternary  arrow function -->
+const WOLF = 'wolfMan' || (() => 0)();
+const FALSE = false;
+const TESTMICH = FALSE || (WOLF && (() => 'kim22')());
+console.log(`TESTMICH: ${TESTMICH}`);
