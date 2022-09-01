@@ -131,4 +131,10 @@ git revert 89fbb2c
   ----------------------
 Press Esc to enter Command mode, and then type :wq to write and quit the file. The other, quicker option is to use the keyboard shortcut ZZ to write and quit. To the non-vi initiated, write means save, and quit means exit vi.
 
-git config --global alias.sa '!git stash -m && git stash apply'
+
+git config --global alias.ss "stash save"
+
+
+
+ git config --global alias.sa 'stash apply'
+git ss test33 && git sa
