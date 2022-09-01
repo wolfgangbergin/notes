@@ -130,3 +130,5 @@ git revert 89fbb2c
    git reset --hard origin/wolfMan   // hard Reset  to origin/branchName
   ----------------------
 Press Esc to enter Command mode, and then type :wq to write and quit the file. The other, quicker option is to use the keyboard shortcut ZZ to write and quit. To the non-vi initiated, write means save, and quit means exit vi.
+
+git config --global alias.sa '!git stash -m && git stash apply'

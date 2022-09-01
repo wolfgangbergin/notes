@@ -65,3 +65,8 @@ const union = Array.from(new Set([...threeArray, ...fiveArray]));
 
 Practice Array.reduce()
 Practice Array.filter()
+
+const KIM = true
+
+let wolfMan = KIM && (()=>'wolfMan'))()
+console.log(wolfMan)
