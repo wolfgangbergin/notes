@@ -134,7 +134,8 @@ Press Esc to enter Command mode, and then type :wq to write and quit the file. T
 
 git config --global alias.ss "stash save"
 
-
-
  git config --global alias.sa 'stash apply'
 git ss test33 && git sa
+  ----------------------
+
+ git push origin apple --force 
